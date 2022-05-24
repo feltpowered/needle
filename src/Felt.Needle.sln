@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30114.105
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Felt.Needle", "Felt.Needle\Felt.Needle.csproj", "{34C920D6-4AFB-4506-B79D-77FFDE929246}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Felt.Needle.Tests", "Felt.Needle.Tests\Felt.Needle.Tests.csproj", "{AD0C5EA1-51D0-4663-865C-C0A5CEF1BDAE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DummyProject", "DummyProject\DummyProject.csproj", "{CA619C0E-D64C-489E-89B1-722682775124}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{34C920D6-4AFB-4506-B79D-77FFDE929246}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{34C920D6-4AFB-4506-B79D-77FFDE929246}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{34C920D6-4AFB-4506-B79D-77FFDE929246}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{34C920D6-4AFB-4506-B79D-77FFDE929246}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AD0C5EA1-51D0-4663-865C-C0A5CEF1BDAE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AD0C5EA1-51D0-4663-865C-C0A5CEF1BDAE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AD0C5EA1-51D0-4663-865C-C0A5CEF1BDAE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AD0C5EA1-51D0-4663-865C-C0A5CEF1BDAE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CA619C0E-D64C-489E-89B1-722682775124}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CA619C0E-D64C-489E-89B1-722682775124}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CA619C0E-D64C-489E-89B1-722682775124}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CA619C0E-D64C-489E-89B1-722682775124}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
