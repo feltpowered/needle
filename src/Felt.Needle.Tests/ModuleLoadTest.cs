@@ -40,6 +40,7 @@ namespace Felt.Needle.Tests
 
             using MemoryStream stream = new();
             handler.ModuleWriter.Write(module, stream);
+            stream.Seek(0, SeekOrigin.Begin);
             module = handler.ModuleResolver.ResolveFromStream(stream);
 
             if (module is null)
