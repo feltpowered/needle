@@ -1,4 +1,5 @@
-﻿using Mono.Cecil;
+﻿using System.Collections.Generic;
+using Mono.Cecil;
 
 namespace Felt.Needle.API
 {
